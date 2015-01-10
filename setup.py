@@ -24,7 +24,9 @@ setup(
     platforms='any',
     install_requires=[
         'Flask>=0.7',
-        'apns-client>=0.2.1'
+    ],
+    dependency_links=[
+        'hg+https://bitbucket.org/dtbog/apns-client@875f12af6dd23e8c2c58be0849706b682d57ec41'
     ],
     tests_require=[
         'nose==1.3.1',
