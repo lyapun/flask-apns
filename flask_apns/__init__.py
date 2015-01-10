@@ -3,7 +3,8 @@
 Send APNS message with flask
 """
 
-from apnsclient import Session, Certificate, Message, APNs
+from apnsclient import Session, Message, APNs
+from apnsclient.backends.stdio import Certificate
 
 
 class APNS(object):

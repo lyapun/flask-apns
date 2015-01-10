@@ -13,7 +13,7 @@ def desc():
 
 setup(
     name='Flask-APNS',
-    version='0.1.0',
+    version='0.2.0',
     url='https://github.com/gilles/flask-apns/',
     license='MIT',
     author='Gilles Devaux',
@@ -24,7 +24,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask>=0.7',
-        'apns-client>=0.1'
+        'apns-client>=0.2.1'
     ],
     tests_require=[
         'nose==1.3.1',
