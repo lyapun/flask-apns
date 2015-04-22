@@ -129,3 +129,10 @@ class APNS(object):
             for key, reason in res.failed.iterkeys():
                 self.failed_callback(key, reason)
         return res
+
+    def feedback(self):
+        connection = self.get_connection()
+        if connection is None:
+            return None
+        srv = APNs(connection)
+        return srv.feedback()
