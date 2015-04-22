@@ -13,7 +13,7 @@ def desc():
 
 setup(
     name='Flask-APNS',
-    version='0.2.0',
+    version='0.2.1',
     url='https://github.com/gilles/flask-apns/',
     license='MIT',
     author='Gilles Devaux',
